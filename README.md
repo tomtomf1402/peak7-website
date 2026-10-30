@@ -31,11 +31,18 @@ Datei bearbeiten, committen, nach GitHub pushen – Cloudflare baut automatisch 
 
 ## Logo
 
-Vektor-Nachbau des bisherigen Logos (aus einer kleinen Rastergrafik vermessen):
+Bildmarke: Gratlinie mit Auslauf in Salbeigrün, daneben der Schriftzug PEAK7.
+Zeichen und Schrift stehen bewusst mit Abstand, damit der Grat nicht als „M" gelesen wird.
 
-- `img/logo.svg` – hell, für die dunkle Website
-- `img/logo-schwarz.svg` – schwarz, für helle Hintergründe (Druck, Dokumente)
-- `img/favicon.svg` – nur die Bildmarke
+- `img/logo.svg` – Grat grün, Schrift hell, für die dunkle Website
+- `img/logo-schwarz.svg` – alles schwarz, für helle Hintergründe und Einfarbdruck
+- `img/favicon.svg` – nur der Grat ohne Auslauf, kräftiger, auf dunklem Quadrat
+
+Für Rechnungen, Dokumente usw. liegen alle Logo-Varianten als SVG und transparentes PNG in `logo/`,
+darunter `peak7-logo-heller-grund` mit dunklerem Grün `#517b5d` (ausreichend Kontrast auf Weiß).
+
+Visitenkarten (Druckvorlage, Render, PDFs) liegen in `visitenkarten/`, ältere Entwürfe in
+`visitenkarten/entwuerfe/`.
 
 Akzentfarbe der Website: Salbeigrün `#8fb59a` (`--accent` in `css/style.css`).
 

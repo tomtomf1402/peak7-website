@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 21 150 35" width="600" height="140" role="img" aria-label="peak7">
-  <!-- Bildmarke: abgerundetes Quadrat mit zwei ausgesparten Dreiecken -->
-  <path fill="#ececec" fill-rule="evenodd" d="M5.2 22H26.8Q29 22 29 24.2V44.8Q29 47 26.8 47H5.2Q3 47 3 44.8V24.2Q3 22 5.2 22Z
-    M16.4 25.2L22 33.9H10.8Z
-    M16.4 34.9L22 43.4H10.8Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-18 18 171 38" width="684" height="152" role="img" aria-label="peak7">
+  <!-- Bildmarke: Gratlinie mit Auslauf (Salbeigrün), Schrift hell – für dunkle Hintergründe -->
+  <path fill="none" stroke="#8fb59a" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" d="M-16 45.5H-10L2 20.5L8.5 33L12.5 28.5L19.5 45.5"/>
   <!-- Schriftzug PEAK: Linien, oben und unten auf Versalhöhe beschnitten -->
   <clipPath id="versal"><rect x="30" y="24" width="106" height="22"/></clipPath>
   <g fill="none" stroke="#ececec" stroke-width="2.5" stroke-linejoin="round" clip-path="url(#versal)">
