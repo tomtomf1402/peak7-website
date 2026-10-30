@@ -1,0 +1,7 @@
+# Sicherheits-Header für Cloudflare Pages
+# frame-src: nur YouTube (nocookie) und Vimeo dürfen als Player geladen werden – und erst nach Klick.
+/*
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; frame-src https://www.youtube-nocookie.com https://player.vimeo.com; base-uri 'self'; form-action 'none'; frame-ancestors 'none'
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Content-Type-Options: nosniff
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
