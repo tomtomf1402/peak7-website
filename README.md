@@ -44,9 +44,10 @@ Akzentfarbe der Website: Salbeigrün `#8fb59a` (`--accent` in `css/style.css`).
 Unfertige Teile sind mit dem Attribut `hidden` ausgeblendet. Sie bleiben im Code und erscheinen,
 sobald man `hidden` entfernt (im Code nach `AUSGEBLENDET` suchen):
 
-- **Arbeiten** (Abschnitt `#arbeiten` und Menüpunkt „Arbeiten"): bis die Videos da sind.
-  Beim Einblenden ggf. den Hero-Button wieder auf `#arbeiten` / „Arbeiten ansehen" setzen.
-- **Telefon und Ort** im Kontaktbereich.
+- **Telefon** im Kontaktbereich.
+
+Videokacheln ohne `data-id` zeigen „Demnächst" statt des Abspielknopfs. Sobald eine Video-ID
+eingetragen ist, erscheint automatisch der Zwei-Klick-Player.
 
 Was noch fehlt, ist pink gestrichelt markiert (`class="ph"` oder `PLATZHALTER`):
 

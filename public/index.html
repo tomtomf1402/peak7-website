@@ -17,7 +17,7 @@
       <a class="wordmark" href="./"><img src="img/logo.svg" alt="peak7" width="120" height="28"></a>
       <nav class="nav" aria-label="Hauptnavigation">
         <a href="#leistungen">Leistungen</a>
-        <a href="#arbeiten" hidden>Arbeiten</a>
+        <a href="#arbeiten">Arbeiten</a>
         <a href="#kontakt">Kontakt</a>
       </nav>
     </div>
@@ -86,8 +86,8 @@
                   nicht gelistet: vimeo.com/123456789/abcdef → zusätzlich data-hash="abcdef"
          Vorschaubild lokal ablegen (img/thumbs/…, 1280×720) und als <img> eintragen.
          Erst nach Klick auf „Video laden" wird eine Verbindung zu YouTube/Vimeo aufgebaut.
-         AUSGEBLENDET bis die Videos da sind: „hidden" hier und beim Menüpunkt oben entfernen. -->
-    <section id="arbeiten" hidden>
+         Solange data-id leer ist, zeigt die Kachel „Demnächst" statt des Abspielknopfs. -->
+    <section id="arbeiten">
       <div class="wrap">
         <p class="eyebrow">Arbeiten</p>
         <h2 class="section-title">Ausgewählte Projekte</h2>
@@ -99,27 +99,26 @@
             </div>
             <figcaption>
               <strong>Showreel</strong>
-              <span class="ph">[Jahr · kurze Beschreibung]</span>
             </figcaption>
           </figure>
 
           <figure class="work">
-            <div class="video" data-provider="youtube" data-id="" data-title="Projekt 2">
+            <div class="video" data-provider="youtube" data-id="" data-title="Forschungsvideo">
               <!-- <img src="img/thumbs/projekt-2.jpg" alt="" width="1280" height="720"> -->
             </div>
             <figcaption>
-              <strong class="ph">[Kunde – Projekttitel]</strong>
-              <span class="ph">[Imagefilm · Jahr]</span>
+              <!-- Titel: Kunde – Projekttitel; darunter <span>Forschungsvideo · Jahr</span> -->
+              <strong>Forschungsvideo</strong>
             </figcaption>
           </figure>
 
           <figure class="work">
-            <div class="video" data-provider="youtube" data-id="" data-title="Projekt 3">
+            <div class="video" data-provider="youtube" data-id="" data-title="Imagefilm">
               <!-- <img src="img/thumbs/projekt-3.jpg" alt="" width="1280" height="720"> -->
             </div>
             <figcaption>
-              <strong class="ph">[Kunde – Projekttitel]</strong>
-              <span class="ph">[Forschungsvideo · Jahr]</span>
+              <!-- Titel: Kunde – Projekttitel; darunter <span>Imagefilm · Jahr</span> -->
+              <strong>Imagefilm</strong>
             </figcaption>
           </figure>
         </div>
@@ -132,11 +131,10 @@
         <p class="eyebrow">Kontakt</p>
         <h2 class="section-title">Erzählen Sie uns von Ihrem Projekt.</h2>
         <a class="contact__mail" href="mailto:office@peak7.co.at">office@peak7.co.at</a>
-        <!-- AUSGEBLENDET bis Telefon und Ort feststehen: „hidden" entfernen.
-             Telefon: href im Format tel:+43… ohne Leerzeichen -->
-        <ul class="contact__list" hidden>
-          <li><a class="ph" href="tel:">[Telefon]</a></li>
-          <li><span class="ph">[Ort]</span></li>
+        <ul class="contact__list">
+          <!-- Telefon AUSGEBLENDET: Nummer eintragen (href im Format tel:+43… ohne Leerzeichen) und „hidden" entfernen -->
+          <li hidden><a href="tel:">Telefon</a></li>
+          <li>Bruck an der Großglocknerstraße, Salzburg</li>
         </ul>
       </div>
     </section>

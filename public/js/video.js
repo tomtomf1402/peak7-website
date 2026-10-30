@@ -23,6 +23,15 @@
     var provider = providers[box.dataset.provider] || providers.youtube;
     var title = box.dataset.title || 'Video';
 
+    // Noch kein Video eingetragen: ruhiger Hinweis statt Abspielknopf
+    if (!box.dataset.id) {
+      var soon = document.createElement('p');
+      soon.className = 'video__soon';
+      soon.textContent = 'Demnächst';
+      box.appendChild(soon);
+      return;
+    }
+
     var consent = document.createElement('div');
     consent.className = 'video__consent';
 
