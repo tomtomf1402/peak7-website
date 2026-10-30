@@ -29,12 +29,20 @@ Dann http://localhost:8080 öffnen.
 
 Datei bearbeiten, committen, nach GitHub pushen – Cloudflare baut automatisch neu (ca. 1 Minute).
 
+## Logo
+
+Vektor-Nachbau des bisherigen Logos (aus einer kleinen Rastergrafik vermessen):
+
+- `img/logo.svg` – hell, für die dunkle Website
+- `img/logo-schwarz.svg` – schwarz, für helle Hintergründe (Druck, Dokumente)
+- `img/favicon.svg` – nur die Bildmarke
+
+Akzentfarbe der Website: Salbeigrün `#8fb59a` (`--accent` in `css/style.css`).
+
 ## Platzhalter
 
 Alles, was noch fehlt, ist pink gestrichelt markiert. Im Code: `class="ph"`, `class="ph-tag"` oder `PLATZHALTER`.
 
-- **Logo**: `public/img/logo.svg` ablegen, in `index.html` (Kopfzeile + Hero) den Text gegen das `<img>` tauschen. Favicon `img/favicon.svg` ebenfalls ersetzen.
-- **Akzentfarbe**: `--accent` in `css/style.css` auf die Logofarbe setzen.
 - **Texte**: Hero-Satz und die vier Leistungstexte sind Entwürfe (`Entwurf`-Markierung entfernen, wenn passend).
 - **Videos**: siehe unten.
 - **Kontakt**: Telefon (auch im `tel:`-Link) und Ort.

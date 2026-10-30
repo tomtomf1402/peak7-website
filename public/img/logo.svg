@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 21 150 35" width="600" height="140" role="img" aria-label="peak7">
+  <!-- Bildmarke: abgerundetes Quadrat mit zwei ausgesparten Dreiecken -->
+  <path fill="#ececec" fill-rule="evenodd" d="M5.2 22H26.8Q29 22 29 24.2V44.8Q29 47 26.8 47H5.2Q3 47 3 44.8V24.2Q3 22 5.2 22Z
+    M16.4 25.2L22 33.9H10.8Z
+    M16.4 34.9L22 43.4H10.8Z"/>
+  <!-- Schriftzug PEAK: Linien, oben und unten auf Versalhöhe beschnitten -->
+  <clipPath id="versal"><rect x="30" y="24" width="106" height="22"/></clipPath>
+  <g fill="none" stroke="#ececec" stroke-width="2.5" stroke-linejoin="round" clip-path="url(#versal)">
+    <path d="M33.5 47V25.2H50.3Q52.5 25.2 52.5 27.4V34.3Q52.5 36.5 50.3 36.5H33.5"/>
+    <path d="M78 25.2H60.2V44.6H78M60.2 35H75"/>
+    <path d="M86 47V27.4Q86 25.2 88.2 25.2H102.8Q105 25.2 105 27.4V47M86 36.5H105"/>
+    <path d="M114 23V47M114 35H122.8L132.3 22.3M122.8 35L133.6 48.1"/>
+  </g>
+  <!-- tiefgestellte, kursive 7 -->
+  <path fill="#ececec" d="M133 33H151V35.2L134.6 55H129L143.4 37H133Z"/>
+</svg>
