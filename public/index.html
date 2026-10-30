@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>peak7 – Video und Fotografie</title>
-  <meta name="description" content="peak7 – Video und Fotografie aus Österreich: Social Media Content, Image Films, Product Videos, Fotografie und Scriptwriting.">
+  <meta name="description" content="peak7 – Video und Fotografie aus Österreich: Forschungsvideos, Social-Media-Content, Imagefilme, Fotografie und Eventfotografie.">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/video.js" defer></script>
@@ -17,7 +17,7 @@
       <a class="wordmark" href="./"><img src="img/logo.svg" alt="peak7" width="120" height="28"></a>
       <nav class="nav" aria-label="Hauptnavigation">
         <a href="#leistungen">Leistungen</a>
-        <a href="#arbeiten">Arbeiten</a>
+        <a href="#arbeiten" hidden>Arbeiten</a>
         <a href="#kontakt">Kontakt</a>
       </nav>
     </div>
@@ -30,9 +30,9 @@
       <div class="wrap">
         <h1>At its peak.<br><span>Stories in motion.</span></h1>
         <p class="hero__lead">
-          Film, Foto, Social Media. Kleines Team, großes Bild.<span class="ph-tag">Entwurf</span>
+          Film, Foto, Social Media. Kleines Team, großes Bild.
         </p>
-        <a class="hero__cta" href="#arbeiten">Arbeiten ansehen</a>
+        <a class="hero__cta" href="#kontakt">Projekt anfragen</a>
       </div>
     </section>
 
@@ -44,38 +44,31 @@
 
         <div class="services">
           <article class="service">
-            <h3>Social Media Content</h3>
+            <h3>Forschungsvideos</h3>
+            <p>
+              Komplizierte Themen aus Forschung und Technik, einfach und spannend aufbereitet –
+              verständlich für Laien, ohne dass Fachleute die Augen verdrehen.
+            </p>
+          </article>
+          <article class="service">
+            <h3>Social-Media-Content</h3>
             <p>
               Kurze Formate, die für Instagram, LinkedIn, TikTok und YouTube gedacht sind –
-              im richtigen Seitenverhältnis, mit Untertiteln und in regelmäßigem Rhythmus.<span class="ph-tag">Entwurf</span>
+              im richtigen Seitenverhältnis, mit Untertiteln und in regelmäßigem Rhythmus.
             </p>
           </article>
           <article class="service">
-            <h3>Image Films</h3>
+            <h3>Imagefilme</h3>
             <p>
               Filme, die zeigen, wer Sie sind und wofür Ihr Unternehmen steht. Wir entwickeln
-              Idee und Konzept mit Ihnen und setzen sie mit kleinem, eingespieltem Team um.<span class="ph-tag">Entwurf</span>
-            </p>
-          </article>
-          <article class="service">
-            <h3>Product Videos</h3>
-            <p>
-              Ihr Produkt im besten Licht – erklärend, präzise und auf den Punkt gebracht.
-              Für Website, Messe, Vertrieb oder Online-Shop.<span class="ph-tag">Entwurf</span>
+              Idee und Konzept mit Ihnen und setzen sie mit kleinem, eingespieltem Team um.
             </p>
           </article>
           <article class="service">
             <h3>Fotografie</h3>
             <p>
-              Fotos für Website, Social Media und Presse – Produkte, Team und Unternehmen.
-              Auf Wunsch direkt beim Videodreh, damit Bild und Film aus einem Guss sind.<span class="ph-tag">Entwurf</span>
-            </p>
-          </article>
-          <article class="service">
-            <h3>Scriptwriting</h3>
-            <p>
-              Am Anfang steht die Geschichte. Wir schreiben Konzepte, Drehbücher und Sprechertexte,
-              die zu Ihrer Marke und Ihrem Publikum passen.<span class="ph-tag">Entwurf</span>
+              Fotos für Website, Social Media und Presse – Menschen, Räume und Produkte.
+              Dazu Eventfotografie: Konferenzen, Feiern, Veranstaltungen.
             </p>
           </article>
         </div>
@@ -92,8 +85,9 @@
          Vimeo:   https://vimeo.com/123456789        → data-id="123456789"
                   nicht gelistet: vimeo.com/123456789/abcdef → zusätzlich data-hash="abcdef"
          Vorschaubild lokal ablegen (img/thumbs/…, 1280×720) und als <img> eintragen.
-         Erst nach Klick auf „Video laden" wird eine Verbindung zu YouTube/Vimeo aufgebaut. -->
-    <section id="arbeiten">
+         Erst nach Klick auf „Video laden" wird eine Verbindung zu YouTube/Vimeo aufgebaut.
+         AUSGEBLENDET bis die Videos da sind: „hidden" hier und beim Menüpunkt oben entfernen. -->
+    <section id="arbeiten" hidden>
       <div class="wrap">
         <p class="eyebrow">Arbeiten</p>
         <h2 class="section-title">Ausgewählte Projekte</h2>
@@ -115,7 +109,7 @@
             </div>
             <figcaption>
               <strong class="ph">[Kunde – Projekttitel]</strong>
-              <span class="ph">[Image Film · Jahr]</span>
+              <span class="ph">[Imagefilm · Jahr]</span>
             </figcaption>
           </figure>
 
@@ -125,7 +119,7 @@
             </div>
             <figcaption>
               <strong class="ph">[Kunde – Projekttitel]</strong>
-              <span class="ph">[Product Video · Jahr]</span>
+              <span class="ph">[Forschungsvideo · Jahr]</span>
             </figcaption>
           </figure>
         </div>
@@ -138,8 +132,9 @@
         <p class="eyebrow">Kontakt</p>
         <h2 class="section-title">Erzählen Sie uns von Ihrem Projekt.</h2>
         <a class="contact__mail" href="mailto:office@peak7.co.at">office@peak7.co.at</a>
-        <ul class="contact__list">
-          <!-- Telefon: href im Format tel:+43… ohne Leerzeichen -->
+        <!-- AUSGEBLENDET bis Telefon und Ort feststehen: „hidden" entfernen.
+             Telefon: href im Format tel:+43… ohne Leerzeichen -->
+        <ul class="contact__list" hidden>
           <li><a class="ph" href="tel:">[Telefon]</a></li>
           <li><span class="ph">[Ort]</span></li>
         </ul>

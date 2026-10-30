@@ -39,11 +39,17 @@ Vektor-Nachbau des bisherigen Logos (aus einer kleinen Rastergrafik vermessen):
 
 Akzentfarbe der Website: Salbeigrün `#8fb59a` (`--accent` in `css/style.css`).
 
-## Platzhalter
+## Ausgeblendet und Platzhalter
 
-Alles, was noch fehlt, ist pink gestrichelt markiert. Im Code: `class="ph"`, `class="ph-tag"` oder `PLATZHALTER`.
+Unfertige Teile sind mit dem Attribut `hidden` ausgeblendet. Sie bleiben im Code und erscheinen,
+sobald man `hidden` entfernt (im Code nach `AUSGEBLENDET` suchen):
 
-- **Texte**: Hero-Satz und die vier Leistungstexte sind Entwürfe (`Entwurf`-Markierung entfernen, wenn passend).
+- **Arbeiten** (Abschnitt `#arbeiten` und Menüpunkt „Arbeiten"): bis die Videos da sind.
+  Beim Einblenden ggf. den Hero-Button wieder auf `#arbeiten` / „Arbeiten ansehen" setzen.
+- **Telefon und Ort** im Kontaktbereich.
+
+Was noch fehlt, ist pink gestrichelt markiert (`class="ph"` oder `PLATZHALTER`):
+
 - **Videos**: siehe unten.
 - **Kontakt**: Telefon (auch im `tel:`-Link) und Ort.
 - **Impressum / Datenschutz**: Firmendaten, UID, Gewerbe, Behörde, WKO-Bundesland, Stand-Datum.
